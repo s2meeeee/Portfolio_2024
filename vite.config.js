@@ -1,6 +1,7 @@
-// vite.config.js
-export default {
+import { defineConfig } from "vite";
+
+export default defineConfig({
   server: {
-    port: 3000, // Vite 개발 서버 포트
+    port: 3000,
   },
-};
+});
